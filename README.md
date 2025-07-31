@@ -58,25 +58,26 @@ JUEGO_MOKEPON/
 
 ## 🔧 Instalación
 
-\`\`\`bash
+```bash
 # Clona el repositorio
-git clone https://github.com/tu-usuario/mokepon-server.git
+git clone [repositorio Mokepon](https://github.com/gjrangel2/juego_mokepon)
 
 # Entra al directorio
-cd mokepon-server
+cd carpeta donde guardes el proyecto clonado
 
 # Instala las dependencias
 npm install
-\`\`\`
+```
 
 ---
 
 ## ▶️ Ejecución
 
-\`\`\`bash
+```bash
 # Ejecuta el servidor
 node index.js
-\`\`\`
+```
+
 
 Por defecto el servidor corre en:  
 📍 \`http://localhost:8080\`  
