@@ -60,7 +60,7 @@ JUEGO_MOKEPON/
 
 ```bash
 # Clona el repositorio
-git clone [repositorio Mokepon](https://github.com/gjrangel2/juego_mokepon)
+git clone https://github.com/gjrangel2/juego_mokepon
 
 # Entra al directorio
 cd carpeta donde guardes el proyecto clonado
@@ -131,7 +131,7 @@ O en red local si lo habilitas: \`http://192.168.x.x:8080\`
 ## 👨‍💻 Autor
 
 - Geyson Rangel  
-- [LinkedIn]([https://www.linkedin.com/](https://www.linkedin.com/in/geyson-jair-rangel-ortega-79a022233/))  
+- [LinkedIn](https://www.linkedin.com/in/geyson-jair-rangel-ortega-79a022233/)  
 - Proyecto educativo basado en el curso de Mokepon (Platzi/YouTube)
 
 ---
