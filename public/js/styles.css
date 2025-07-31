@@ -1,0 +1,207 @@
+body{
+   
+    background-image: url(./arena.png);
+}
+
+#seleccionar-mascota{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.titulo{
+-webkit-text-stroke: 1px rgb(9, 79, 122);
+ font-family: fantasy; color: rgb(255, 196, 54);
+ font-size: 60px;
+ height: 20;
+ padding: 40px;
+ margin: 20px;
+}
+
+.titulo2{
+   -webkit-text-stroke: 1px rgb(9, 79, 122);
+    font-family: fantasy; color: rgb(255, 196, 54);
+    font-size: 40px;
+    height: 20;
+    padding: 20px;
+    margin: 20px;
+   }
+
+#subtitulo{
+    -webkit-text-stroke: 1px rgb(9, 79, 122);
+    font-family: fantasy; color: rgb(255, 196, 54);
+    width: 300px;
+    height: 50px;
+    font-size: 38px;
+    text-align: center;
+}
+
+.tarjetas, .botones-ataque{
+    display: flex;
+}
+
+.tarjeta-mokepon{
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     background-color: rgb(255, 196, 54);
+     color: white;
+     width: 180px;
+     height: 100px;
+     padding: 10px;
+     box-sizing: border-box;
+     margin: 10px;
+     border: 3px solid  rgb(9, 79, 122);
+     border-radius: 10px;
+ }
+
+ .tarjeta-mokepon img{
+    width: 80px;
+ }
+
+ input{
+    display: none;
+ }
+
+ input:checked + label{
+   background-color:rgb(9, 79, 122);
+   border: 3px solid  rgb(82, 122, 9)
+
+}
+
+ #boton-mascota{
+    background-color:FFF0CE;
+    
+     border: 2px solid   rgb(9, 79, 122);
+     border-radius: 30%;
+     display: flex;
+    align-content: center;
+    justify-content: center;
+    
+ }
+
+ #boton-mascota img{
+    width: 80px;
+    margin: 5px;
+ }
+
+ #seleccionar-ataque{
+    display: flex;
+   flex-direction: column;
+    align-items: center;
+    color: rgb(9, 79, 122);
+ }
+
+ .boton-de-ataque{
+color: white;
+background-color: rgb(9, 79, 122);
+width: 80;
+height: 50;
+font-size: 22;
+padding: 5px;
+   border-radius: 10px;
+    box-sizing: border-box;
+ }
+
+ #boton-reiniciar{
+  display: flex;
+    padding: 5px;
+   border-radius: 10px;
+    width: 150px;
+    box-sizing: border-box;
+    background-color: rgb(9, 79, 122);
+    color: white;
+    flex-direction: row;
+    justify-content: center;
+ }
+ #reiniciar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+ }
+
+ #mensajes{
+   width: 450;
+    margin-top: 20px;
+    background-color:rgb(255, 196, 54);
+    border: 3px solid  rgb(9, 79, 122);
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    height: 90;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+ }
+
+ #resultadoAtaque{
+   font-size: 20;
+   margin: 10;
+ }
+
+ .ataques{
+display: grid;
+grid-template-columns: 200px 200px;
+text-align: center;
+font-size: 22;
+   
+ }
+
+ .ataque-enemigo, .ataque-jugador{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+ }
+
+ @media(max-width:550px){
+   .botones-ataque{
+      flex-direction: column;
+   }
+ }
+
+ @media(max-width:1000px){
+   .tarjetas{
+      flex-direction: column;
+   }
+ }
+
+ #ver-mapa {
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+
+ }
+
+ #ver-mapa button{
+   width: 80px;
+   height: 40px;
+   background-color:rgb(9, 79, 122);
+   border: 1px solid   black;
+   border-radius: 30px;
+   display: flex;
+   align-items: center;
+    justify-content: center;
+   }
+
+#tres-botones{
+display: flex;
+}
+
+@media(max-width:500px){
+   #tres-botones{
+      flex-direction: column;
+   }
+ }
+
+ @media(max-width:640px){
+   .titulo2{
+      font-size: 28px;
+   }
+ }
+ 
+ 
+ 
